@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:nth($fonts,1);
+}
+html{
+    font-size: $font-size;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}

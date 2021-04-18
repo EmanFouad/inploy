@@ -1,0 +1,9 @@
+@mixin create_underline($color , $bottom , $left , $width:10px , $height:4px) {
+    content: '';
+    width: $width;
+    height: $height;
+    background-color: $color;
+    position: absolute;
+    bottom: $bottom;
+    left: $left;
+}
